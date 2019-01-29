@@ -25,3 +25,4 @@ a = tucom4.Basalt(4,5,100) # 上の説明で、n = 5, N = 4, 平面上の分子�
 a.draw_heatmap() 
 ```
 
+See the wiki https://github.com/tsuchiura/kadai/wiki for examples of outputs
