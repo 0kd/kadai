@@ -1,0 +1,6 @@
+setup.py
+pyturing_pattern.egg-info/PKG-INFO
+pyturing_pattern.egg-info/SOURCES.txt
+pyturing_pattern.egg-info/dependency_links.txt
+pyturing_pattern.egg-info/requires.txt
+pyturing_pattern.egg-info/top_level.txt

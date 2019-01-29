@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: turing-pattern
+Version: 0.1.1
+Summary: simulator of turing-pattern 
+ See https://github.com/tsuchiura/kadai for usage
+Home-page: https://github.com/tsuchiura/kadai
+Author: kudo
+Author-email: tsuchiurax@gmail.com
+License: MIT
+Description: simply simulate and visualize turing pattern, inspired by the TV show Magaten
+Keywords: turing
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics

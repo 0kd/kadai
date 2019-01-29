@@ -1,0 +1,6 @@
+setup.py
+turing_pattern.egg-info/PKG-INFO
+turing_pattern.egg-info/SOURCES.txt
+turing_pattern.egg-info/dependency_links.txt
+turing_pattern.egg-info/requires.txt
+turing_pattern.egg-info/top_level.txt
