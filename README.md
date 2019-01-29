@@ -2,7 +2,9 @@
 
 ## Package for simulation of turing pattern
 
-"turing pattern" is the theory that explain the pattern of animals, such as spots of python or leopad, back of a mackerel, etc.
+"turing pattern" is the theory that explain the pattern of animals, such as spots of python or leopad, back of a mackerel, etc. This theory was proposed for the first time by Alan Turing, famous for Turing machine, and proved in emperor angelfish by Shigeru Kondo, the professor of Osaka university. 
+
+more information about turing pattern: https://www.fbs-osaka-kondolabo.net/research
  
 This simulation suppose a two types of coloured molucule which is surrounded by 6 molucules and affects each other, and the relationship between the two types of molcules is:
 
@@ -12,23 +14,8 @@ This simulation suppose a two types of coloured molucule which is surrounded by 
 
 you can repete that operation N (init and you can set it by the argument) times and make various patterns.
 
-The initial state of the molcule distribution is set as random, but it is easy to modify the program to change the it.
+The initial state of the molcule distribution is set as random, but it is easy to modify the program to change it.
 
-
-
-
-
-
-
-チューリングパターンのシミュレーションを、平面上にある周囲六個の分子と接する色素分子について行う。
-
-二種類の色素分子（最初はランダムに分布-->重要な因子なのでプログラムを改変して初期値を自由に設定してください。）について、
-
-* 周り一周の色素分子のうち色が異なるものがn種類以上なら、裏返す
-
-* 周り二周の色素分子と色が同じならば、裏返す
-
-という二つの操作をN回繰り返すと、いろいろな模様ができる。
 
 
 ### install:
@@ -44,3 +31,20 @@ a.draw_heatmap()
 ```
 
 See the wiki https://github.com/tsuchiura/kadai/wiki for examples of outputs
+
+
+
+
+
+## 説明
+
+チューリングパターンのシミュレーションを、平面上にある周囲六個の分子と接する色素分子について行う。
+
+二種類の色素分子（最初はランダムに分布-->重要な因子なのでプログラムを改変して初期値を自由に設定してください。）について、
+
+* 周り一周の色素分子のうち色が異なるものがn種類以上なら、裏返す
+
+* 周り二周の色素分子と色が同じならば、裏返す
+
+という二つの操作をN回繰り返すと、いろいろな模様ができる。
+
