@@ -10,7 +10,12 @@
 という二つの性質を仮定すると、蛇のような模様ができる。
 2015/5/3に放送された「目がテン！大実験…オセロの石で生き物の模様を作ってみよう！」の実験を参考にした。
 
-usage:
+### install:
+```{bash}
+pip install PatternTuring
+```
+
+### usage:
 ```{python}
 from PatternTuring import tucom4
 a = tucom4.Basalt(4,5,100)
