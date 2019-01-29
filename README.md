@@ -2,6 +2,24 @@
 
 ## Package for simulation of turing pattern
 
+"turing pattern" is the theory that explain the pattern of animals, such as spots of python or leopad, back of a mackerel, etc.
+ 
+This simulation suppose a two types of coloured molucule which is surrounded by 6 molucules and affects each other, and the relationship between the two types of molcules is:
+
+* If the number of molcules which surround the molcule and has opposite colour of it is more than n(init and you can set it by the argument,and maximum is 6), the central moclule's colour will be reversed. 
+
+* if molcules around a molcule and molcules around them also has same colour, the central molcule's color will be reversed.
+
+you can repete that operation N (init and you can set it by the argument) times and make various patterns.
+
+The initial state of the molcule distribution is set as random, but it is easy to modify the program to change the it.
+
+
+
+
+
+
+
 チューリングパターンのシミュレーションを、平面上にある周囲六個の分子と接する色素分子について行う。
 
 二種類の色素分子（最初はランダムに分布-->重要な因子なのでプログラムを改変して初期値を自由に設定してください。）について、
